@@ -1,0 +1,27 @@
+# Todo (rendu 16h00)
+
+- [x] Étape 1 : chargement, normalisation, test 3 matchs, correction de la définition (démarquage gagné + receveur ciblé)
+- [x] Étape 2 : calcul complet 122 matchs (+14 pts de complétion, z = 12)
+- [x] Étape 3 : app Streamlit
+  - [x] En-tête + 3 métriques
+  - [x] Classement + filtres
+  - [x] Nuage "Hidden gems"
+  - [x] Fiche joueur
+  - [x] Animation : cadrage, artefact pression sous le centre, boutons, vérifié par capture
+  - [x] Version corrigée gardée (jamais couvert = ouvert à 1,5 s), phrase explicative ajoutée
+- [x] Étape 4 : README + captures (push GitHub par l'utilisateur)
+- [x] Refonte UI premium (direction validée : clair éditorial, onglets, recherche joueur)
+  - Plan validé : thème clair éditorial (#F7F7F5 / #1C1F23 / accent #1F6F4A / alerte #B4442F, Inter)
+  - [x] .streamlit/config.toml (thème) + CSS (masquer header Streamlit, cartes KPI, police Inter)
+  - [x] Barre du haut : nom du produit à gauche, recherche joueur à droite (ouvre la fiche), pas d'avatar
+  - [x] Navigation par onglets : Overview / Leaderboard / Hidden gems / Players / Play replay ; plus de sidebar
+  - [x] Filtres dans une barre d'outils (Leaderboard + Hidden gems), état partagé
+  - [x] Zéro emoji (verdicts en pastilles texte, boutons Play/Pause sans symbole)
+  - [x] Graphiques plotly aux couleurs du thème
+  - [x] Vérification : AppTest sans exception + captures de chaque onglet
+- [x] Habillage football : barre de nav pelouse, bannière terrain + 2 chronos médians, typo Barlow Condensed, cartes style tableau d'affichage, rang dans le classement, terrain réaliste (en-buts, lignes 5 yd, numéros)
+- [x] Refonte v2 : logos des 32 équipes (assets/logos, hors ligne), textes plus grands, classement en tableau HTML avec logos et tri, accueil orienté données (graphique + leaders par poste), en-tête joueur avec logo, affiche du match dans le replay, onglet Help
+- [x] Replay v2 : phrase qui raconte l action, frise chronologique (snap, ouvert, pression, passe, fenêtre de tir), légende HTML, terrain plus grand
+- [x] Onglet Teams : nuage des 32 logos (taux de pression vs Open in Time %) + tableau équipes
+- [x] Bouton Reset zoom (Hidden gems, Teams), logo NFL, photos des joueurs (nflverse), bouton Help contextuel par page
+- [x] Palette NFL.com (marine #013369, rouge #D50A0A), titres majuscules condensés, en-têtes de tableau marine
